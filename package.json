@@ -20,8 +20,16 @@
   },
   "homepage": "https://github.com/Zeku87/app-cuestionarios-empresa#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.1",
+    "nodemon": "^1.17.4",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2",
+    "react-modal": "^3.4.4",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
