@@ -1,0 +1,20 @@
+body{
+    background-color: #F6F6F6;
+}
+
+.hero{
+    background: white;
+    color: navy;
+    font-weight: bold;
+    text-align: left    ;
+    padding: 1rem;
+}
+
+.card{
+    border-radius: 1rem;
+    border-top: solid #31B0D5 1rem;
+    background: white;
+    text-align: center;
+    padding-bottom: 3rem;
+    margin: 2rem; 
+}
