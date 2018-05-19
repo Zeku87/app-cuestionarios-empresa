@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development && webpack-dev-server",
-    "build": "webpack --mode production && webpack-dev-server"
+    "build": "webpack --mode production && webpack-dev-server",
+    "webpack": "webpack --mode development",
+    "start": "npm run webpack && nodemon --exec babel-node -- ./bin/www"
   },
   "repository": {
     "type": "git",
